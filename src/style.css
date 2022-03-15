@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #23252C;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #1A1B21;
+}
+
+main > img {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.main--title {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main--title > h3, .main--title > h4 {
+  margin: 0;
+}
+
+.main--title > h3 {
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main--title > h4 {
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+  padding: 15px;
+}
+
+.main--buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.main--buttons > a {
+  text-decoration: none;
+}
+
+.btn--mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  margin-right: 20px;
+}
+
+.btn--mail:hover {
+  cursor: pointer;
+}
+
+.btn--mail > p {
+  margin: 0px 8px;
+}
+
+.icon--mail {
+  margin: 0px 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.btn--lnk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  background: #5093E2;
+  border: 1px solid #5093E2;
+  border-radius: 6px;
+}
+
+.btn--lnk:hover {
+  cursor: pointer;
+}
+
+.icon--lnk {
+  width: 16px;
+  height: 16px;
+  margin: 0px 8px;
+  color: #FFFFFF;
+}
+
+.btn--lnk > p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.content > h3 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+  padding: 25px 0 0 20px;
+}
+
+.content--list {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.content--list > li {
+  line-height: 19px;
+  padding-block: 3px;
+  color: #DCDCDC;
+  font-size: 13px;
+}
+
+.content--list > li::marker {
+  color: #DCDCDC;
+  font-size: 19px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  max-width: 550px;
+  height: 64px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #161619;
+}
+
+.footer--icon {
+  width: 25px;
+  height: 25px;
+  margin: 0px 8px;
+  color: #FFFFFF;
+}
